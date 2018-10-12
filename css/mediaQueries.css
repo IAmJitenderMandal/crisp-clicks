@@ -1,0 +1,105 @@
+@media screen and (max-width: 1260px) {
+    
+   
+
+    span.primary-heading-main {
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 25px;
+    }
+    
+     .primary-heading-sub {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 15.4px;
+    
+        animation-name: moveInRight;
+        animation-duration: 2s;
+    }
+
+
+}
+
+@media screen and (max-width: 1085px) {
+    span.primary-heading-main {
+        font-size: 55px;
+        font-weight: 600;
+        letter-spacing: 22px;
+    }
+    
+     .primary-heading-sub {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 13.4px;
+    
+        animation-name: moveInRight;
+        animation-duration: 2s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header#header div.nav-logo nav ul{
+        display: none;
+    }
+
+    header#header div.nav-logo nav #mobile-navigation {
+        display: block;
+    }
+
+    section#our-clients div.client-comment {
+        width: 35rem;
+    }
+
+    section#our-clients div.client-comment .client {
+        margin-top: 1rem;
+    }
+
+} 
+
+@media screen and (max-width: 800px) {
+    
+    section#our-team div.team-member-row {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    section#our-team div.team-member-row .each-member {
+        width: 80vw;
+    }
+
+    section#our-team div.team-member-row .each-member img {
+        width: 50%;
+        height: auto;
+    }
+
+    section#our-clients div.comments {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    section#contact-us form span input {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section#contact-us form .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#contact-us form span input {
+        width: 68vw;
+    }
+
+    section#contact-us form span.emailAdd input {
+        width: 68vw;
+    }
+    .member-image {
+        margin-bottom: 1rem;
+    }
+    .details {
+        font-weight: 400;
+    }
+
+}
