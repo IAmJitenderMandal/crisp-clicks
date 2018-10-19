@@ -1,6 +1,4 @@
 @media screen and (max-width: 1260px) {
-    
-   
 
     span.primary-heading-main {
         font-size: 60px;
@@ -38,8 +36,33 @@
 }
 
 @media screen and (max-width: 900px) {
-    header#header div.nav-logo nav ul{
+    header#header div.nav-logo nav {
+        position: relative;
+        transition: all 5s;
+    }
+
+    header#header div.nav-logo nav div {
         display: none;
+    }
+
+    header#header div.nav-logo nav ul {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        top: 4rem;
+        background: linear-gradient(to left, rgba(247, 187, 98), rgba(136, 135, 135));
+        z-index: 10;
+    }
+
+    header#header div.nav-logo nav ul li {
+        text-align: center;
+    }
+
+    header#header div.nav-logo nav ul li a {
+        font-weight: 700;
+     
     }
 
     header#header div.nav-logo nav #mobile-navigation {

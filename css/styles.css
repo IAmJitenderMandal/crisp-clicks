@@ -131,6 +131,11 @@ span.primary-heading-main {
     animation-duration: 2s;
 }
 
+/********Drop down menu style*********/
+header#header div.nav-logo nav div.menu{
+    display: block;
+}
+
 
 @keyframes moveInLeft {
 
